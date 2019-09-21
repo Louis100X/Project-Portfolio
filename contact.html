@@ -11,24 +11,45 @@
     <body>
         
         <header>
-            <div class="title-bar">
-                <div class="Name">
+            <div class="title-bar top">
+                <div class="name">
                     <h1>Louis Alonzo</h1>
                 </div>
                         
                 <div class="navigation-bar">
+                    <nav>
                     <a href="index.html">About</a>
                     <a href="portfolio.html">Portfolio</a> 
                     <a>Contact</a>
+                    </nav>
                 </div>
             </div>
         </header>
 
         <div class="display">
-            <div class="context-display">
-                <div class="about-me">
+            <div class="title-bar">
+                <section class="about-me">
+                    <div class="title">
+                        <h2>Contact</h2>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contact-info" method="POST" action="">
+                            <p>Name</p>
+                            <input name="name" class="form-control" type="text">
+                            <br>
+                            <p>Email</p>
+                            <input name="email" class="form-control" type="email">
+                            <br>
+                            <p>Message</p>
+                            <textarea name="message" class="form-control" rows="10">
+                            </textarea>
+                            <br>
+                            <input type="submit" class="submit" value="submit">
+                        </form>
 
-                </div>
+                    </div>
+
+                </section>
             </div>
         </div>
         
